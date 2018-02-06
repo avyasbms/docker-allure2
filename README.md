@@ -5,5 +5,5 @@ docker-allure2
 Put the xunit xml file in "results" directory.
 
 ```bash
-docker run -it --rm -v $(pwd):/allure-report -w /output avyasbms/docker-allure2 allure generate /output/allure-report/ -o /output/allure-report/ --clean
+docker run -it --rm -v $(pwd):/allure-report -w /output amitvyasbms/docker-allure2 allure generate /output/allure-report/ -o /output/allure-report/ --clean
 ```
